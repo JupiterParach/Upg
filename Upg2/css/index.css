@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+body {
+
+background: #ff7e5f; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #ff7e5f , #feb47b); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #ff7e5f , #feb47b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.topgames {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Raleway', sans-serif;
+  color: #ecf0f1;
+  text-shadow: 1.5px 1.5px #000;
+
+}
+
+table {
+    font-family: 'Raleway', sans-serif;
+    border-spacing: 0;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 632px;
+    -webkit-box-shadow: 10px 15px 24px -9px rgba(0,0,0,0.44);
+    -moz-box-shadow: 10px 15px 24px -9px rgba(0,0,0,0.44);
+    -o-box-shadow: 10px 15px 24px -9px rgba(0,0,0,0.44);
+    border-radius: 12px;
+    overflow: hidden;
+
+
+}
+
+td, th {
+
+    text-align: left;
+    padding: 7px 13px 7px 13px;
+    border-bottom: 0.2px solid #ccc;
+
+}
+
+tr {
+    background-color: #ecf0f1;
+
+}
+th {
+ background: #34495e;
+ color: #ecf0f1;
+ padding: 15px;
+}
